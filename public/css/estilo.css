@@ -1,0 +1,141 @@
+.logoMyFood2{
+    width: 100px;
+}
+
+.localizacao{
+    width: 25px;
+}
+
+.localizacaoLocal{
+    border-right-color: transparent;
+    background-color: transparent;
+}
+
+.localicazaoTexto{
+    border-left-color: transparent;
+}
+
+.verOpcoes{
+    background-color: rgb(194, 25, 36);
+}
+
+.restaurante{
+    background-color: rgb(234, 29, 44);
+    border: none;
+}
+
+.mercado{
+    background-color: rgb(182, 208, 72);
+    border: none;
+}
+
+.buscarLojas{
+    background-color: rgb(160, 182, 63);
+}
+
+.corTextoRestauranteMercado{
+    color: white;
+}
+
+.botaoBebidasFarmaciaPetshop{
+    background-color: white;
+    border: 1px solid white;
+}
+
+.fundoBotaoBebida{
+    background-color: rgb(246, 213, 83);
+}
+
+.fundoBotaoFarmacia{
+    background-color: rgb(249, 135, 156);
+}
+
+.fundoBotaoPetshop{
+    background-color: rgb(140, 96, 197);
+}
+
+.bebidasFarmaciaPetshop{
+    margin-top: 10%;
+}
+
+.estabelecimentoNomes{
+    font-size: 14px;
+}
+
+.estabelecimentoTipo{
+    font-size: 12px;
+}
+
+.linhaEntregadorEstabelecimento{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.botaoPadrao{
+    background-color: rgb(234, 29, 44);
+}
+
+.links{
+    color: gray;
+    text-decoration: none;
+
+}
+
+.links:active{
+    color: black;
+}
+
+.copyrightFrase{
+    font-size: 13px;
+}
+
+.linksFooter{
+    font-size: 12px;
+}
+
+.botaoFacebook{
+    color: white;
+    /* background-position-x: 10; */
+}
+
+.telaLogin{
+    background-color: rgb(255, 205, 213);
+}
+
+.cardEstabelecimento{
+    height: 100px;
+}
+
+.botaoCadastro .botaoPadrao{
+    border: none;
+}
+
+.containerCarrossel
+{
+    display: flex;
+    overflow-x: scroll;
+    padding: 24px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 24px;
+    border-radius: 8px;
+    gap: 12px;
+}
+
+.containerCarrossel .item
+{
+    flex: 0 0 100%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start; 
+}
+
+.zoom:hover
+{
+    transform: scale(1.05);
+}
+
+.zoom
+{
+    background-color: white;
+    transition: .5s;
+}
